@@ -10,6 +10,10 @@ function colores()
     for( var i= 0; i < colors.length; i++)
     {
         var estado = colors[i].value;
+        if(estado == "Estado")
+        {
+            colors[i].id = "id_Estado";
+        }
         if(estado=="Bueno")
         {
             colors[i].id = "Bueno";
