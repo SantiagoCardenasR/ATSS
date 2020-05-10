@@ -113,5 +113,53 @@ section{
 ::-webkit-scrollbar-thumb {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
 }
-  
+
+.page_cotainer
+{
+  text-align: center;
+}
+
+.page_wrapper
+{
+  margin-top: 55px;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 55px;
+  display: block;
+}
+
+.fomato_seguimiento_vehiculos
+{
+  margin-left: 455px;
+  margin-right: 455px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: antiquewhite;
+  border-radius: 75px;
+}
+
+.item_container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+}
+
+.item_validacion_label
+{
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.item_validacion
+{
+  margin-bottom: 25px;
+}
+
+.file_upload_item
+{
+  display: block;
+}
   

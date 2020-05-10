@@ -34,3 +34,16 @@ function colores()
         }
     }
 }
+
+function printSomething()
+{
+    print("Something");
+}
+
+function ReplaceOnClick(event)
+{
+    var itemSelected = event.target;
+    var textOfItem = itemSelected.innerHTML;
+
+    document.getElementById("parametros_a_revisar").innerHTML = textOfItem;
+}
