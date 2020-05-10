@@ -636,6 +636,7 @@ textarea {
 
 .fromCard-6 {
   background: transparent;
+  width: 800px;
 }
 
 .fromCard-6 .fromCard-heading {
@@ -694,6 +695,8 @@ textarea {
 {
   padding-top: 15px;
 }
+
+
 
 .fromCard .heading-of-form
 {
