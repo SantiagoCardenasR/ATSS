@@ -1,49 +1,32 @@
-/* $(window).on("load resize ", function() 
- {
-   var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
-   $('.tbl-header').css({'padding-right':scrollWidth});
- }).resize(); */
-
 function colores()
 {
-    var colors = document.getElementsByClassName("estado");
+    var colors = document.getElementsByName("estado_vehiculo");
     for( var i= 0; i < colors.length; i++)
     {
         var estado = colors[i].value;
+        var elementosItem = colors[i].parentElement.parentElement;
+        var botonSemaforo = elementosItem.getElementsByClassName("btn dropdown-toggle btn-light")[0];
         if(estado == "Estado")
         {
-            colors[i].id = "id_Estado";
+            botonSemaforo.id = "id_Estado";
         }
         if(estado=="Bueno")
         {
-            colors[i].id = "Bueno";
+            botonSemaforo.id = "Bueno";
         }
         if(estado=="Malo")
         {
-            colors[i].id = "Malo";
+            botonSemaforo.id = "Malo";
             
         }
         if(estado == "ManC")
         {
-            colors[i].id = "ManC";
+            botonSemaforo.id = "ManC";
             
         }
         if(estado=="MantenimientoPreventivo")
         {
-            colors[i].id = "MantenimientoPreventivo";
+            botonSemaforo.id = "MantenimientoPreventivo";
         }
     }
-}
-
-function printSomething()
-{
-    print("Something");
-}
-
-function ReplaceOnClick(event)
-{
-    var itemSelected = event.target;
-    var textOfItem = itemSelected.innerHTML;
-
-    document.getElementById("parametros_a_revisar").innerHTML = textOfItem;
 }
