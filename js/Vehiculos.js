@@ -6,7 +6,7 @@
 
 function colores()
 {
-    var colors = document.getElementsByClassName("estado");
+    var colors = document.getElementsByName("estado");
     for( var i= 0; i < colors.length; i++)
     {
         var estado = colors[i].value;
