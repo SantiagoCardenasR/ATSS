@@ -45,18 +45,18 @@
         <div class="wrapper wrapper--w900">
             <div class="fromCard fromCard-6">
                 <div class="heading-of-form">
-                    <h2 class="title" style="font-size: 36px;font-weight: 700;text-align: left;color: black;margin-bottom: 24px;">Seguimiento de vehículos</h2>
+                    <h2 class="title" style="font-size: 36px;font-weight: 700;text-align: left;color: black;margin-bottom: 24px;">Seguimiento de EPPS</h2>
                 </div>
                 <div class="fromCard-body">
                     <form method="POST">
                         <div class="form-row">
-                            <div class="name">Validación</div>
+                            <div class="name">Caracteristicas de dotación</div>
                             <div class="value">
                               <select name="validacion" class="selectpicker">
-                                <option value="EstadoCabinaYControles" onclick="cambiarParametros('Estado de cabina y controles')">Estado de cabina y controles</option>
-                                <option value="General" onclick="cambiarParametros('General')">General</option>
-                                <option value="Elementos de seguridad" onclick="cambiarParametros('Elementos de seguridad')">Elementos de seguridad</option>
-                                <option value="Luces" onclick="cambiarParametros('Luces')">Luces</option>
+                                <option value="Seleccionar" onclick="cambiarParametros('Seleccionar')">Seleccionar</option>
+                                <option value="Dotacion" onclick="cambiarParametros('Dotación')">Dotación</option>
+                                <option value="EPPS" onclick="cambiarParametros('EPPS')">EPPS</option>
+                              
                               </select>
                             </div>
                         </div>
@@ -65,13 +65,18 @@
                                 <div class="value">
                                     <div class="input-group parametros">
                                         <select class="selectpicker">
-                                            <option>ESPEJO RETROVISOR/LATERAL</option>
-                                            <option>PITO-ALARMA DE RESERVA</option>
-                                            <option>FRENOS</option>
-                                            <option>LIMPIA BRISAS</option>
-                                            <option>CINTURONES DE SEGURIDAD</option>
-                                            <option>PUERTAS</option>
-                                            <option>VÍDRIOS</option>
+                                            <option>Seleccionar</option>
+                                            <option>BOTAS</option>
+                                            <option>PANTALON</option>
+                                            <option>CAMISETA</option>
+                                            <option>CHAQUETA</option>
+                                            <option>GORRA</option>
+                                            <option>CANGURO DE HERRAMIENTAS</option>
+                                            <option>REATA</option>
+                                            <option>IMPERMEABLE</option>
+                                            <option>BOTAS DE CAUCHO DIELECTRICAS</option>
+                                            <option>OTRO</option>
+
                                         </select>                                  
                                     </div>
                                 </div>
@@ -103,7 +108,7 @@
                             </div>
     
                             <div class="form-row">
-                              <div class="name">Observaciones</div>
+                              <div class="name">Observaciones Especificas</div>
                               <div class="value">
                                   <div class="input-group">
                                       <textarea class="textarea--style-6" name="message" placeholder="Observaciones"></textarea>
@@ -114,11 +119,11 @@
                 </div>
                 </div>
                 <div class="fromCard-footer">
-                    <button class="btn btn--radius-2" style="right: inline-block;line-height: 50px;padding: 0 30px;-webkit-transition: all 0.4s ease;-o-transition: all 0.4s ease;-moz-transition: all 0.4s ease;transition: all 0.4s ease;cursor: pointer;font-size: 15px;text-transform: capitalize;font-weight: 700;color: #fff;font-family: inherit;background: #2c6ed5;border-radius: 5px;" type="submit">Siguiente</button>
+                    <button class="btn btn--radius-2" style="center: inline-block;line-height: 50px;padding: 0 30px;-webkit-transition: all 0.4s ease;-o-transition: all 0.4s ease;-moz-transition: all 0.4s ease;transition: all 0.4s ease;cursor: pointer;font-size: 15px;text-transform: capitalize;font-weight: 700;color: #fff;font-family: inherit;background: #2c6ed5;border-radius: 5px;" type="submit">Siguiente</button>
                 </div>
             </div>
             <div class="made-Aw">
-              AW Company
+              Veco
             </div>
         </div>
     </div>
@@ -126,7 +131,7 @@
     <!-- Jquery JS-->
     <script src="vendor/jquery/jquery.min.js"></script>
     
-    <script src="./js/Vehiculos.js" async></script>
+    <script src="./js/Epps.js" async></script>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
