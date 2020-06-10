@@ -686,18 +686,20 @@
     padding: 50px 55px;
   }
   .brand_logo_container {
-   position: static;
-    height: 150px;
-    width: 170px;
+    position: static;
+    height: 90px;
+    width: 90px;
     top: -75px;
     border-radius: 50%;
-    background-color:transparent;
+    background-color: transparent;
     padding: 10px;
     text-align: left;
+    padding-left: 150px;
+    margin-bottom: 50px;
 }
 .brand_logo {
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
     border: none;
 }
@@ -745,5 +747,11 @@
     text-align: center;
     margin-top: 50px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+
+  .Title_container
+  {
+    height: 150px;
+    padding-top: 70px;
   }
   
