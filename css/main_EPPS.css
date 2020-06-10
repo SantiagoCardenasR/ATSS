@@ -8,7 +8,7 @@ html {
 .user_card {
     height: 450px;
     width: 750px;
-    margin-top: auto;
+    margin-top: 150px;
     margin-bottom: auto;
     background: #a19f9a93;
     position: relative;
@@ -39,19 +39,23 @@ html {
     border: none;
 }
 .form_container {
-    margin-top: 100px;
+    margin-top: 15px;
+    
 }
 .login_btn {
     width: 100%;
+    margin-top: 15px;
     background: #14aa4ed2 !important;
     color: white !important;
 }
 .login_btn:focus {
     box-shadow: none !important;
     outline: 0px !important;
+
 }
 .login_container {
     padding: 0 2rem;
+    
 }
 .input-group-text {
     background: #409259 !important;
