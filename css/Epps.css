@@ -1,168 +1,165 @@
-
-
 h1{
-    font-size: 30px;
-    color: rgba(63, 58, 58, 0.856);
-    text-transform: uppercase;
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: 15px;
-  
-  
-  }
-  table{
-    width:100%;
-    table-layout: fixed;
-  }
-  .tbl-header{
-    background-color: rgba(120, 185, 247, 0.589);
-   }
-  .tbl-content{
-    height: 300px;
-    overflow-x: auto;
-    margin-top: 10px;
-    border: 1px solid rgba(27, 26, 26, 0.842);
-    background-color: rgba(252, 252, 252, 0.521);
-   
-  }
-  
-  th{
-    padding: 20px 15px;
-    text-align: left;
-    font-weight: 500;
-    font-size: 12px;
-    color: bl;
-    text-transform: uppercase;
-  }
-  td{
-    padding: 15px;
-    text-align: center;
-    vertical-align:middle;
-    font-weight: 300;
-    font-size: 12px;
-    color: rgba(10, 10, 10, 0.952);
-    border-bottom: solid 1px rgba(119, 118, 118, 0.178);
-  
-  }
-  .Estado
-  {
-    background-color: white;
-  }
-      #Bueno
-      {
-          background-color: rgba(163, 231, 163, 0.7);
-      }
-      #Malo
-      {
-          background-color: rgba(243, 117, 67, 0.7);
-      }
-      #ManC
-      {
-          background-color: rgba(241, 206, 129, 0.7);
-      }
-      #MantenimientoPreventivo
-      {
-          background-color: rgba(233, 235, 104, 0.7);
-      }
-  
-  
-  /* demo styles */
-  
-  
-  body{
-    height: 100%;
-    background-image:  url("../images/fondo5.png");
-                  
-  background-color: transparent;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 240px;
-  }
-  
-  section{
-    margin: 50px;
-  }
-  
-  
-  
-  /* follow me template */
-  .made-Aw {
-    margin-top: 40px;
-    padding: 10px;
-    clear: left;
-    text-align: center;
-    font-size: 10px;
-    font-family: arial;
-    color: rgba(109, 106, 106, 0.925);
-  }
-  
-  .made-with-love a {
-    color: #fff;
-    text-decoration: none;
-  }
-  .made-with-love a:hover {
-    text-decoration: underline;
-  }
-  
-  
-  /* for custom scrollbar for webkit browser*/
-  
-  ::-webkit-scrollbar {
-      width: 6px;
-  } 
-  ::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-  } 
-  ::-webkit-scrollbar-thumb {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-  }
-  
-  .page_cotainer
-  {
-    text-align: center;
-  }
-  
-  .page_wrapper
-  {
-    margin-top: 55px;
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-bottom: 55px;
-    display: block;
-  }
-  
-  .fomato_seguimiento_EPPS
-  {
-    margin-left: 455px;
-    margin-right: 455px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: antiquewhite;
-    border-radius: 75px;
-  }
-  
-  .item_container
-  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80px;
-  }
-  
-  .item_validacion_label
-  {
-    margin-right: 25px;
-    margin-bottom: 25px;
-  }
-  
-  .item_validacion
-  {
-    margin-bottom: 25px;
-  }
-  
-  .file_upload_item
-  {
-    display: block;
-  }
-    
+  font-size: 30px;
+  color: rgba(63, 58, 58, 0.856);
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+
+
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(120, 185, 247, 0.589);
+ }
+.tbl-content{
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 10px;
+  border: 1px solid rgba(27, 26, 26, 0.842);
+  background-color: rgba(252, 252, 252, 0.521);
+ 
+}
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: bl;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: rgba(10, 10, 10, 0.952);
+  border-bottom: solid 1px rgba(119, 118, 118, 0.178);
+
+}
+.Estado
+{
+  background-color: white;
+}
+    #Bueno
+    {
+        background-color: rgba(163, 231, 163, 0.7);
+    }
+    #Malo
+    {
+        background-color: rgba(243, 117, 67, 0.7);
+    }
+    #ManC
+    {
+        background-color: rgba(241, 206, 129, 0.7);
+    }
+    #MantenimientoPreventivo
+    {
+        background-color: rgba(233, 235, 104, 0.7);
+    }
+
+
+/* demo styles */
+
+
+body{
+  height: 100%;
+  background-image:  url("../images/fondo5.png");
+                
+background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 240px;
+}
+
+section{
+  margin: 50px;
+}
+
+
+
+/* follow me template */
+.made-Aw {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: rgba(109, 106, 106, 0.925);
+}
+
+.made-with-love a {
+  color: #fff;
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+.page_cotainer
+{
+  text-align: center;
+}
+
+.page_wrapper
+{
+  margin-top: 55px;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 55px;
+  display: block;
+}
+
+.fomato_seguimiento_vehiculos
+{
+  margin-left: 455px;
+  margin-right: 455px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: antiquewhite;
+  border-radius: 75px;
+}
+
+.item_container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+}
+
+.item_validacion_label
+{
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.item_validacion
+{
+  margin-bottom: 25px;
+}
+
+.file_upload_item
+{
+  display: block;
+}
   
