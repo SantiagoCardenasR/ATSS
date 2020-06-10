@@ -6,10 +6,8 @@ if(document.readyState == 'loading')
 function loadInformationIntoPage()
 {
     var padreValidaciones = document.getElementsByClassName("value")[0];
-    console.log(padreValidaciones.getElementsByClassName("inner show"));
-    var validaciones = padreValidaciones.getElementsByClassName("text");
-    
-    
+    //var validationButton = padreValidaciones.getElementsByClassName("btn dropdown-toggle btn-light");
+    console.log(padreValidaciones.innerHTML);
 }
 
 function colores()
@@ -47,9 +45,9 @@ function colores()
 
 function cambiarParametros(pValidacion)
 {
-    var padreParametros = document.getElementsByClassName("dropdown-menu inner show")[1];
-    console.log(padreParametros);
-    var innerhtml = "";
+    var padreValidaciones = document.getElementsByClassName("value")[0];
+    console.log(padreValidaciones.innerHTML);
+    /* var innerhtml = "";
     if(pValidacion == 'Estado de cabina y controles')
     {
         innerhtml = `
@@ -277,7 +275,7 @@ function cambiarParametros(pValidacion)
         `;
     }
 
-    padreParametros.innerHTML = innerhtml;
+    padreParametros.innerHTML = innerhtml; */
 
 }
 
