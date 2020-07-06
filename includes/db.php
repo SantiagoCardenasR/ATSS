@@ -2,7 +2,7 @@
 $server_name = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "db_medio_ambiente";
+$dbName = "fass_data";
 
 $conn = mysqli_connect($server_name, $dbUsername, $dbPassword, $dbName);
 

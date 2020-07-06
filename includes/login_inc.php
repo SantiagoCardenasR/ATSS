@@ -9,7 +9,7 @@ if (isset($_POST['login_button_submit']))
 
 	if (empty($mail) || empty($password)) 
 	{
-		header("Location: login.php?error=emptyFields");
+		header("Location: FASS.html?error=emptyFields");
 		exit();
 	}
 	else
@@ -18,7 +18,7 @@ if (isset($_POST['login_button_submit']))
 		$stmt = mysqli_stmt_init($conn);
 		if (!mysqli_stmt_prepare($stmt,$sql)) 
 		{
-			header("Location: index.php?error=sqlError");
+			header("Location: FASS.html?error=sqlError");
 		    exit();
 		}
 		else
@@ -31,7 +31,7 @@ if (isset($_POST['login_button_submit']))
 			$pwdCheck = password_verify($password, $row['contra_usuario']);
 			if($pwdCheck == false)
 			{
-				header("Location: index.php?error=Wrongpwd");
+				header("Location: FASS.html?error=Wrongpwd");
 		        exit();
 			}
 			else if($pwdCheck == true)
@@ -39,16 +39,8 @@ if (isset($_POST['login_button_submit']))
 				session_start();
 				$_SESSION['nombre_usuario'] = $row['nom_usuario'];
 				$_SESSION['correo_usuario'] = $row['mail_usuario'];
-
-				if($row['rol_usuario'] == "cliente")
-				{
-					header("Location: index.php?login=success");
-				}
-
-				if($row['rol_usuario'] == "admin")
-				{
-					header("Location: admin.php?login=success")
-;				}
+				
+				header("Location: ./dashboard_Inicio/");
 				
 		        exit();
 			}
